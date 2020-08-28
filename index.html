@@ -104,7 +104,7 @@
             
                 <div class="row justify-content-center">
                     <div class="col-sm-12 col-md-4 mb-4 mb-md-0">
-                        <div class="card school-card" >
+                        <div class="card school-card nursery-card" >
                            <div class="ourSch-image">  
                              <img src="https://res.cloudinary.com/amorue/image/upload/q_auto:low/v1598534841/kid1_b2gsvu.jpg" class="card-img-top" alt="Our Nursery School">
                           </div>
@@ -117,7 +117,7 @@
                     </div>
 
                     <div class="col-sm-12 col-md-4  mb-4 mb-md-0">
-                        <div class="card school-card" >
+                        <div class="card school-card primary-card" >
                          <div class="ourSch-image">    
                               <img src="https://res.cloudinary.com/amorue/image/upload/q_auto:low/v1598534886/ourschools2_udpth9.jpg" class="card-img-top" alt="Our Primary School">
                          </div>  
@@ -130,7 +130,7 @@
                     </div>
 
                     <div class="col-sm-12 col-md-4  mb-4 mb-md-0" >
-                        <div class="card school-card" >
+                        <div class="card school-card secondary-card">
                          <div class="ourSch-image">  
                             <img src="https://res.cloudinary.com/amorue/image/upload/q_auto:low/v1598534902/ourschools3_zsrulg.jpg" class="card-img-top" alt="Our Secondary School">
                          </div>  
@@ -173,7 +173,7 @@
     <section class="mission-vision">
       <div class="container">
          <div class="row py-5">
-            <div class="col-md-6">
+            <div class="col-md-6 mis-vis-text">
                   <h3>Our Mission</h3>
                   <p class="mb-4 mb-md-5">
                       My name is Sir Ighoyivwi and I want to give Onos Amorue money because it is good to share money for people. I am a knight of saint john and 
@@ -184,7 +184,7 @@
                   <p> Lorem ipsum dolor sit amet, mel civibus neglegentur ut. Mei erant interesset in, eu mea porro volumus intellegat. Has an quot integre necessitatibus, qui ubique graece impedit ut.</p>
               </div>
 
-             <div class="col-md-6 d-none d-md-block">
+             <div class="col-md-6 d-none d-md-block mis-vis-pic">
                   <img src="https://res.cloudinary.com/amorue/image/upload/q_auto:low/v1598534841/child1_edwffz.jpg" class="img-fluid">   
             </div>    
         </div>
@@ -382,7 +382,9 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
    <!--Magnific Pop up-->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-  
+   <!--Script tag for scroll reveal-->
+   <script src="//cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.7/scrollreveal.min.js"></script>
+
     <script type="text/javascript">
         $(document).ready(function(){
         $('ul li').click(function(){
@@ -405,6 +407,46 @@
         });
         })
 
+    </script>
+    <script>
+    /*scroll reveal js*/
+    window.sr = ScrollReveal();
+    sr.reveal(".nursery-card",{
+        duration: "2000",
+        origin: "bottom",
+        distance: "100px",
+        viewFactor: 0.2
+    })
+
+    sr.reveal(".primary-card", {
+        duration: "2000",
+        origin: "bottom",
+        distance: "100px",
+        viewFactor: 0.2,
+        delay: 100
+    })
+
+    sr.reveal(".secondary-card", {
+        duration: "2000",
+        origin: "bottom",
+        distance: "100px",
+        viewFactor: 0.3,
+        delay: 200
+    })
+    
+    sr.reveal(".mis-vis-text", {
+        duration: "2000",
+        origin: "bottom",
+        distance: "100px",
+        viewFactor: 0.3,
+    })
+ 
+    sr.reveal(".mis-vis-pic", {
+        duration: "2000",
+        origin: "right",
+        distance: "100px",
+        viewFactor: 0.3,
+    })
     </script>
 
     <script type="text/javascript">

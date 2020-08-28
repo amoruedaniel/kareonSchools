@@ -3,7 +3,7 @@
 	document.querySelector("nav").classList.toggle("active");
 }
 
-/*scroll to top*/
+/*scroll to top
 const toTop = document.querySelector(".to-top");
 window.addEventListener("scroll",()=>{
 	if(window.pageYOffset > 100){
@@ -12,6 +12,10 @@ window.addEventListener("scroll",()=>{
 		toTop.classList.remove("active");
 	}
 })
+*/
+
+
+
 
 /*this adds margin at the top of every top section to avoid them hiding under the vav bar
 let marginAdder = () =>{

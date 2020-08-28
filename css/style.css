@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100,200,300,400,500,600,700,800,900&family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@500,600,700,800,900&display=swap');
+
 /*-- Body Reset --*/
 body {
   overflow-x: hidden!important;
@@ -14,14 +17,14 @@ section{
 }
 /*custom scrollbar*/
 ::-webkit-scrollbar{
-  width: 8px;
+  width: 12px;
   transition: all 0.6s;
 }
 ::-webkit-scrollbar:hover{
-  width: 10px;
+  width: 12px;
 }
 ::-webkit-scrollbar-thumb{
-  background:linear-gradient( #fff, #84384C);
+  background:gray;
   border-radius: 6px;
 }
 
@@ -113,7 +116,7 @@ header nav ul li ul li.active{
   }
 @media(max-width: 1098px){/*previously 991px*/
   .top-section{
-    margin-top: 86px;
+    margin-top: 90px;
   }
   header .logo img{
     width: 10rem;
@@ -199,6 +202,8 @@ header nav ul li ul li.active{
 .slide-content h1{
    font-size: 3rem;
    text-transform: uppercase;
+   font-family: "inter",'Montserrat', sans-serif;
+   font-weight: 800;
 }
 .slide-content p{
   font-size: 1.5rem;
@@ -240,48 +245,6 @@ header nav ul li ul li.active{
 }
 .owl-next{
   right: 1%;
-}
-/*====================psp image photoswiper===================*/
-
-
-/*============= Top image carousel =============*/
-#main-banner-carousel{
-  margin-top: 30px;
-}
-#top-carousel{
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
-}
-.top-carousel-indicators{
-  z-index: 100000;
-  display: absolute;
-  top: 90%;
-}
-.carousel-inner{
-  max-height: 40rem!important;
-}
-/*Change carousel transition speed*/
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item-active{
-  transition: transform 1.2s ease;
-}
-
-/*carousel text content*/
-.top-carousel-caption{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.top-carousel-caption h1{
-  text-transform: uppercase;
-}
-.top-carousel-caption .btn{
-  
-}
-#top-carousel-item > .svg-inline--fa{
-  margin-left: 10px;
-  margin-top: 1px;
-  color: red;
 } 
 /*Our schools section**/
 h1.heading{
@@ -479,11 +442,11 @@ h1.heading{
 /* Devices under 768px (md) */
 @media (max-width: 767.98px) {
   .slide-content h1{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
  }
  .slide-content p{
-   font-size: 1rem;
+   font-size: 1.2rem;
  }
  .slide-content a{
    font-size: .9rem;

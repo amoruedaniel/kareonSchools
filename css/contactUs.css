@@ -19,7 +19,7 @@
     display: block
 }
 .form-group input, .form-group textarea{
-    border: 0.04rem solid #f0f0f0;
+    border: 0.1rem solid #f0f0f0;
     border-radius: 4px;
     display: block;
     font-size: 0.9rem;
