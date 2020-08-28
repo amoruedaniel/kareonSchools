@@ -1,0 +1,17 @@
+.title > h4{
+    font-size: 1.1rem;
+    line-height: 0.7rem;
+    font: 800;
+}
+.title > span{
+    font-size: .8rem;
+}
+.facility-items .grid a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    transform: scale(1.1);
+    transition: all 0.6s;
+
+}
+.img{
+    overflow: hidden;
+}

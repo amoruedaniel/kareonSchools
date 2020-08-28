@@ -1,0 +1,8 @@
+@media(max-width: 812.98px) {
+    .admission-section p, .admission-section li{
+        font-size: 0.8rem;
+    }
+    .admission-section a{
+        font-size: 0.7rem;
+    }
+}
